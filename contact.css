@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 150,0.5),rgba(0, 0, 50, 0.5)),url(5.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-Title{
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-Title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-Title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: orange;
+    border-width: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}                   
+form .submit:hover{
+    background-color: yellowgreen;
+    cursor: pointer;         
+}
+logo {
+	margin: 10px 50px;
+	height: 60px;
+	float: left;
+	color: white;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+menu-area {
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+.menu-area li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu-area li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+}
+
+        
